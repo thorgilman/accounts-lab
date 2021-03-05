@@ -1,6 +1,7 @@
 package com.template.flows;
 
 import co.paralleluniverse.fibers.Suspendable;
+import com.r3.corda.lib.accounts.contracts.states.AccountInfo;
 import com.template.contracts.DataContract;
 import com.template.states.DataState;
 import net.corda.core.flows.*;
